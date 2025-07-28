@@ -1,0 +1,9 @@
+pandas
+requests
+openai
+beautifulsoup4
+openpyxl
+selenium
+webdriver-manager
+pdfplumber
+PyPDF2

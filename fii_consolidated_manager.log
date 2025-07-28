@@ -1,0 +1,514 @@
+2025-07-28 11:29:18,562 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-28 11:29:18,564 - __main__ - INFO - Starting consolidated FII processing
+2025-07-28 11:29:18,564 - __main__ - INFO - Starting Fatos Relevantes processing
+2025-07-28 11:29:18,566 - __main__ - INFO - Starting table scrape for Fato Relevante
+2025-07-28 11:29:18,566 - WDM - INFO - ====== WebDriver manager ======
+2025-07-28 11:29:20,720 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:29:20,876 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:29:20,920 - WDM - INFO - Driver [C:\Users\Marco Regino\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 11:29:22,605 - __main__ - INFO - Selenium WebDriver initialized successfully
+2025-07-28 11:29:28,144 - __main__ - INFO - Successfully scraped 16 records
+2025-07-28 11:29:30,466 - __main__ - INFO - WebDriver closed
+2025-07-28 11:29:30,468 - __main__ - INFO - Processing document 1/16: FUNDO DE INVESTIMENTO IMOBILIÁRIO VOTORANTIM LOGÍSTICA RESPONSABILIDADE LIMITADA
+2025-07-28 11:29:33,785 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:29:33,804 - __main__ - INFO - Processing document 2/16: RIZA EQUITUS REAL ESTATE FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:29:35,906 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:29:35,909 - __main__ - INFO - Processing document 3/16: GGR COVEPI RENDA FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA
+2025-07-28 11:29:38,721 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:29:38,723 - __main__ - INFO - Processing document 4/16: GUARDIAN REAL ESTATE FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA
+2025-07-28 11:29:43,468 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-28 11:29:44,902 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:29:44,904 - __main__ - INFO - Processing document 5/16: LEGATUS FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:29:47,056 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:29:47,058 - __main__ - INFO - Processing document 6/16: FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII EDIFÍCIO GALERIA RESPONSABILIADADE LIMITADA
+2025-07-28 11:29:48,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:29:48,794 - __main__ - INFO - Processing document 7/16: EMPÍRICA RECEBÍVEIS IMOBILIÁRIOS FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:29:50,332 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:29:50,335 - __main__ - INFO - Processing document 8/16: HEDGE FLORIPA SHOPPING FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA
+2025-07-28 11:29:54,530 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:29:54,532 - __main__ - INFO - Processing document 9/16: MULTI SHOPPINGS FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:29:59,038 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:29:59,041 - __main__ - INFO - Processing document 10/16: GGR COVEPI RENDA FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA
+2025-07-28 11:30:05,895 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:05,896 - __main__ - INFO - Processing document 11/16: PÁTRIA LOGÍSTICA FUNDO DE INVESTIMENTO IMOBILIÁRIO
+2025-07-28 11:30:07,457 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:07,460 - __main__ - INFO - Processing document 12/16: HSI MALLS FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA
+2025-07-28 11:30:08,862 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:08,862 - __main__ - INFO - Processing document 13/16: RAIZZ DESENVOLVIMENTO II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:30:10,381 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:10,383 - __main__ - INFO - Processing document 14/16: SUNO ENERGIAS LIMPAS FUNDO DE INVESTIMENTO IMOBILIÁRIO IS RESPONSABILIDADE LIMITADA
+2025-07-28 11:30:13,781 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:13,781 - __main__ - INFO - Processing document 15/16: XP EXETER II DESENVOLVIMENTO LOGÍSTICO FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII - RESP. LTDA.I
+2025-07-28 11:30:15,420 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:15,423 - __main__ - INFO - Processing document 16/16: FUNDO DE INVESTIMENTO IMOBILIÁRIO RENDA CORPORATIVA ANGICO - RESPONSABILIDADE LIMITADA
+2025-07-28 11:30:16,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:16,938 - __main__ - INFO - Fatos Relevantes completed successfully: C:\Users\Marco Regino\Documents\BDG-Bom Dia Gestor\Fatos Relevantes\FatosRelevantesFII_20250728.xlsx
+2025-07-28 11:30:17,444 - __main__ - INFO - Attempting to send email: FII | Fatos Relevantes — 28/07/25
+2025-07-28 11:30:23,720 - __main__ - INFO - Email sent successfully via Outlook
+2025-07-28 11:30:23,721 - __main__ - INFO - Starting Ofertas Públicas processing
+2025-07-28 11:30:23,721 - __main__ - INFO - Starting table scrape for Oferta Pública de Distribuição de Cotas
+2025-07-28 11:30:23,721 - WDM - INFO - ====== WebDriver manager ======
+2025-07-28 11:30:25,935 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:30:25,968 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:30:26,004 - WDM - INFO - Driver [C:\Users\Marco Regino\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 11:30:27,193 - __main__ - INFO - Selenium WebDriver initialized successfully
+2025-07-28 11:30:32,752 - __main__ - INFO - Successfully scraped 28 records
+2025-07-28 11:30:35,042 - __main__ - INFO - WebDriver closed
+2025-07-28 11:30:35,044 - __main__ - INFO - Processing document 1/28: GUARDIAN REAL ESTATE FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA
+2025-07-28 11:30:38,561 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:38,565 - __main__ - INFO - Processing document 2/28: HEDGE FLORIPA SHOPPING FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA
+2025-07-28 11:30:42,151 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:42,152 - __main__ - INFO - Processing document 3/28: RAIZZ DESENVOLVIMENTO III FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:30:42,794 - pdfminer.pdfinterp - WARNING - Cannot set gray non-stroke color because /'Pattern1' is an invalid float value
+2025-07-28 11:30:42,794 - pdfminer.pdfinterp - WARNING - Cannot set gray non-stroke color because /'Pattern2' is an invalid float value
+2025-07-28 11:30:42,794 - pdfminer.pdfinterp - WARNING - Cannot set gray non-stroke color because /'Pattern3' is an invalid float value
+2025-07-28 11:30:46,755 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:46,757 - __main__ - INFO - Processing document 4/28: AZ QUEST PANORAMA LOGÍSTICA FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA
+2025-07-28 11:30:47,578 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:30:47,581 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:30:47,810 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:30:50,544 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:50,548 - __main__ - INFO - Processing document 5/28: GGR COVEPI RENDA FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA
+2025-07-28 11:30:54,742 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:54,744 - __main__ - INFO - Processing document 6/28: ARTEMIS 2025 FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA
+2025-07-28 11:30:59,451 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:30:59,456 - __main__ - INFO - Processing document 7/28: PROLOGIS BRAZIL LOGISTICS VENTURE FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:02,681 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:02,683 - __main__ - INFO - Processing document 8/28: KINEA UNIQUE HY CDI FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:06,723 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:06,725 - __main__ - INFO - Processing document 9/28: KINEA HIGH YIELD CRI FUNDO DE INVESTIMENTO IMOBILIÁRIO  RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:10,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:10,822 - __main__ - INFO - Processing document 10/28: TRX HEDGE FUND FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:14,094 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:14,095 - __main__ - INFO - Processing document 11/28: TERA FUNDO DE INVESTIMENTO IMOBILIÁRIO
+2025-07-28 11:31:17,633 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:17,639 - __main__ - INFO - Processing document 12/28: VINCI OPORTUNIDADES LOGÍSTICAS FII RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:20,648 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:20,651 - __main__ - INFO - Processing document 13/28: CAPITÂNIA HBC RENDA URBANA FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE  LIMITADA
+2025-07-28 11:31:21,248 - pdfminer.pdfinterp - WARNING - Cannot set gray non-stroke color because /'Pattern1' is an invalid float value
+2025-07-28 11:31:21,248 - pdfminer.pdfinterp - WARNING - Cannot set gray non-stroke color because /'Pattern2' is an invalid float value
+2025-07-28 11:31:23,926 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:23,928 - __main__ - INFO - Processing document 14/28: MAG MULT FII RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:26,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:26,900 - __main__ - INFO - Processing document 15/28: CITADEL I FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:30,275 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:30,278 - __main__ - INFO - Processing document 16/28: MAG MULTIESTRATÉGIA CLASSE DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:33,252 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:33,256 - __main__ - INFO - Processing document 17/28: FUNDO DE INVESTIMENTO IMOBILIÁRIO XP RENDA IMOBILIÁRIA FEEDER - RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:33,388 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,391 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,391 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,391 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,391 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,391 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,394 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P6' is an invalid float value
+2025-07-28 11:31:33,394 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P7' is an invalid float value
+2025-07-28 11:31:33,394 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P8' is an invalid float value
+2025-07-28 11:31:33,397 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P9' is an invalid float value
+2025-07-28 11:31:33,398 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P10' is an invalid float value
+2025-07-28 11:31:33,398 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P11' is an invalid float value
+2025-07-28 11:31:33,399 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P12' is an invalid float value
+2025-07-28 11:31:33,400 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P13' is an invalid float value
+2025-07-28 11:31:33,401 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P14' is an invalid float value
+2025-07-28 11:31:33,401 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P15' is an invalid float value
+2025-07-28 11:31:33,402 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P16' is an invalid float value
+2025-07-28 11:31:33,402 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P17' is an invalid float value
+2025-07-28 11:31:33,402 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P18' is an invalid float value
+2025-07-28 11:31:33,403 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P19' is an invalid float value
+2025-07-28 11:31:33,403 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P20' is an invalid float value
+2025-07-28 11:31:33,403 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P21' is an invalid float value
+2025-07-28 11:31:33,403 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P22' is an invalid float value
+2025-07-28 11:31:33,406 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P23' is an invalid float value
+2025-07-28 11:31:33,406 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P24' is an invalid float value
+2025-07-28 11:31:33,406 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P25' is an invalid float value
+2025-07-28 11:31:33,409 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,410 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,410 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,411 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,411 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,412 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,414 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,415 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,415 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,416 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,416 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,418 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,418 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P26' is an invalid float value
+2025-07-28 11:31:33,418 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P27' is an invalid float value
+2025-07-28 11:31:33,418 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P28' is an invalid float value
+2025-07-28 11:31:33,418 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P29' is an invalid float value
+2025-07-28 11:31:33,420 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P30' is an invalid float value
+2025-07-28 11:31:33,420 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P31' is an invalid float value
+2025-07-28 11:31:33,423 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,424 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,425 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,425 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,426 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,426 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,426 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P32' is an invalid float value
+2025-07-28 11:31:33,428 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P33' is an invalid float value
+2025-07-28 11:31:33,428 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P34' is an invalid float value
+2025-07-28 11:31:33,428 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P35' is an invalid float value
+2025-07-28 11:31:33,428 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P36' is an invalid float value
+2025-07-28 11:31:33,430 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P37' is an invalid float value
+2025-07-28 11:31:33,430 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,432 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,433 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,433 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,433 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,435 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,437 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,437 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,439 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,439 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,440 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,441 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,441 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P38' is an invalid float value
+2025-07-28 11:31:33,442 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P39' is an invalid float value
+2025-07-28 11:31:33,442 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P40' is an invalid float value
+2025-07-28 11:31:33,443 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P41' is an invalid float value
+2025-07-28 11:31:33,443 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P42' is an invalid float value
+2025-07-28 11:31:33,444 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P43' is an invalid float value
+2025-07-28 11:31:33,446 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,447 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,447 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,448 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,448 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,449 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,451 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,451 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,452 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,452 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,452 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,454 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,457 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,457 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,458 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,458 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,460 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,461 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,467 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,467 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,467 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,467 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,470 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,470 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,470 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P44' is an invalid float value
+2025-07-28 11:31:33,472 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P45' is an invalid float value
+2025-07-28 11:31:33,472 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P46' is an invalid float value
+2025-07-28 11:31:33,473 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P47' is an invalid float value
+2025-07-28 11:31:33,474 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P48' is an invalid float value
+2025-07-28 11:31:33,475 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,475 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,477 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,477 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,478 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,478 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,480 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,480 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,480 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,482 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,482 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,483 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,485 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,485 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,485 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,488 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,488 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,489 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,509 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,510 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,510 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,512 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,512 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,512 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,512 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,514 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,514 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,888 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,888 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,888 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,888 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,891 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,891 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,891 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P6' is an invalid float value
+2025-07-28 11:31:33,893 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P7' is an invalid float value
+2025-07-28 11:31:33,893 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P8' is an invalid float value
+2025-07-28 11:31:33,894 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P9' is an invalid float value
+2025-07-28 11:31:33,894 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P10' is an invalid float value
+2025-07-28 11:31:33,895 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P11' is an invalid float value
+2025-07-28 11:31:33,895 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P12' is an invalid float value
+2025-07-28 11:31:33,896 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P13' is an invalid float value
+2025-07-28 11:31:33,896 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P14' is an invalid float value
+2025-07-28 11:31:33,896 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P15' is an invalid float value
+2025-07-28 11:31:33,898 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P16' is an invalid float value
+2025-07-28 11:31:33,898 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P17' is an invalid float value
+2025-07-28 11:31:33,899 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P18' is an invalid float value
+2025-07-28 11:31:33,900 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P19' is an invalid float value
+2025-07-28 11:31:33,900 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P20' is an invalid float value
+2025-07-28 11:31:33,901 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P21' is an invalid float value
+2025-07-28 11:31:33,902 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P22' is an invalid float value
+2025-07-28 11:31:33,902 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P23' is an invalid float value
+2025-07-28 11:31:33,903 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P24' is an invalid float value
+2025-07-28 11:31:33,903 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P25' is an invalid float value
+2025-07-28 11:31:33,906 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,906 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,907 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,908 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,908 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,909 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,910 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,911 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,912 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,912 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,912 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,914 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,915 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P26' is an invalid float value
+2025-07-28 11:31:33,915 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P27' is an invalid float value
+2025-07-28 11:31:33,916 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P28' is an invalid float value
+2025-07-28 11:31:33,917 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P29' is an invalid float value
+2025-07-28 11:31:33,918 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P30' is an invalid float value
+2025-07-28 11:31:33,918 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P31' is an invalid float value
+2025-07-28 11:31:33,919 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,920 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,920 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,920 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,922 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,923 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,923 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P32' is an invalid float value
+2025-07-28 11:31:33,923 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P33' is an invalid float value
+2025-07-28 11:31:33,924 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P34' is an invalid float value
+2025-07-28 11:31:33,924 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P35' is an invalid float value
+2025-07-28 11:31:33,925 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P36' is an invalid float value
+2025-07-28 11:31:33,925 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P37' is an invalid float value
+2025-07-28 11:31:33,927 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,928 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,928 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,928 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,928 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,931 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,933 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,933 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,934 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,934 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,935 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,935 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,935 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P38' is an invalid float value
+2025-07-28 11:31:33,935 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P39' is an invalid float value
+2025-07-28 11:31:33,937 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P40' is an invalid float value
+2025-07-28 11:31:33,937 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P41' is an invalid float value
+2025-07-28 11:31:33,937 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P42' is an invalid float value
+2025-07-28 11:31:33,937 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P43' is an invalid float value
+2025-07-28 11:31:33,940 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,941 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,941 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,941 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,943 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,943 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,945 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,945 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,947 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,947 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,947 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,948 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,949 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,951 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,951 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,952 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,952 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,953 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,954 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,954 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,956 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,956 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,956 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,957 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,958 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P44' is an invalid float value
+2025-07-28 11:31:33,958 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P45' is an invalid float value
+2025-07-28 11:31:33,958 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P46' is an invalid float value
+2025-07-28 11:31:33,958 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P47' is an invalid float value
+2025-07-28 11:31:33,959 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P48' is an invalid float value
+2025-07-28 11:31:33,960 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,961 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,962 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,962 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,962 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,963 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,965 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,965 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,967 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,967 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,968 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,969 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,971 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,972 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,972 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,973 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,974 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:33,974 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:33,991 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,994 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,995 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,997 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:33,997 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:33,998 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:33,998 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:33,998 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,000 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,147 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,149 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,149 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,149 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,151 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,151 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,152 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P6' is an invalid float value
+2025-07-28 11:31:34,152 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P7' is an invalid float value
+2025-07-28 11:31:34,152 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P8' is an invalid float value
+2025-07-28 11:31:34,152 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P9' is an invalid float value
+2025-07-28 11:31:34,152 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P10' is an invalid float value
+2025-07-28 11:31:34,152 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P11' is an invalid float value
+2025-07-28 11:31:34,155 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P12' is an invalid float value
+2025-07-28 11:31:34,156 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P13' is an invalid float value
+2025-07-28 11:31:34,156 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P14' is an invalid float value
+2025-07-28 11:31:34,156 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P15' is an invalid float value
+2025-07-28 11:31:34,156 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P16' is an invalid float value
+2025-07-28 11:31:34,156 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P17' is an invalid float value
+2025-07-28 11:31:34,158 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P18' is an invalid float value
+2025-07-28 11:31:34,158 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P19' is an invalid float value
+2025-07-28 11:31:34,159 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P20' is an invalid float value
+2025-07-28 11:31:34,159 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P21' is an invalid float value
+2025-07-28 11:31:34,159 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P22' is an invalid float value
+2025-07-28 11:31:34,159 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P23' is an invalid float value
+2025-07-28 11:31:34,159 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P24' is an invalid float value
+2025-07-28 11:31:34,159 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P25' is an invalid float value
+2025-07-28 11:31:34,164 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,165 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,165 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,165 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,165 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,167 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,168 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,168 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,168 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,170 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,171 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,171 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,172 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P26' is an invalid float value
+2025-07-28 11:31:34,172 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P27' is an invalid float value
+2025-07-28 11:31:34,173 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P28' is an invalid float value
+2025-07-28 11:31:34,173 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P29' is an invalid float value
+2025-07-28 11:31:34,174 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P30' is an invalid float value
+2025-07-28 11:31:34,174 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P31' is an invalid float value
+2025-07-28 11:31:34,175 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,176 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,176 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,176 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,177 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,178 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,178 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P32' is an invalid float value
+2025-07-28 11:31:34,180 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P33' is an invalid float value
+2025-07-28 11:31:34,180 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P34' is an invalid float value
+2025-07-28 11:31:34,180 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P35' is an invalid float value
+2025-07-28 11:31:34,181 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P36' is an invalid float value
+2025-07-28 11:31:34,184 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P37' is an invalid float value
+2025-07-28 11:31:34,186 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,186 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,188 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,189 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,189 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,191 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,191 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,191 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,191 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,191 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,194 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,195 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,195 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P38' is an invalid float value
+2025-07-28 11:31:34,196 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P39' is an invalid float value
+2025-07-28 11:31:34,196 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P40' is an invalid float value
+2025-07-28 11:31:34,196 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P41' is an invalid float value
+2025-07-28 11:31:34,196 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P42' is an invalid float value
+2025-07-28 11:31:34,198 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P43' is an invalid float value
+2025-07-28 11:31:34,201 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,201 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,202 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,202 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,204 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,204 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,204 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,206 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,206 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,206 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,206 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,208 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,210 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,210 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,210 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,210 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,210 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,213 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,214 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,215 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,217 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,217 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,217 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,217 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,217 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P44' is an invalid float value
+2025-07-28 11:31:34,217 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P45' is an invalid float value
+2025-07-28 11:31:34,220 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P46' is an invalid float value
+2025-07-28 11:31:34,221 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P47' is an invalid float value
+2025-07-28 11:31:34,222 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P48' is an invalid float value
+2025-07-28 11:31:34,223 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,224 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,225 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,225 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,225 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,225 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,227 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,228 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,228 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,229 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,229 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,229 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,231 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,233 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,234 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,234 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,235 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,235 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:34,254 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,256 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,256 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,256 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P0' is an invalid float value
+2025-07-28 11:31:34,256 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P1' is an invalid float value
+2025-07-28 11:31:34,258 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P2' is an invalid float value
+2025-07-28 11:31:34,258 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P3' is an invalid float value
+2025-07-28 11:31:34,258 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P4' is an invalid float value
+2025-07-28 11:31:34,260 - pdfminer.pdfinterp - WARNING - Cannot set gray stroke color because /'P5' is an invalid float value
+2025-07-28 11:31:36,775 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:36,775 - __main__ - INFO - Processing document 18/28: FUNDO DE INVESTIMENTO IMOBILIÁRIO TG RENDA IMOBILIÁRIA FEEDER - RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:40,925 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:40,927 - __main__ - INFO - Processing document 19/28: CITADEL I FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:44,406 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:44,410 - __main__ - INFO - Processing document 20/28: FUNDO DE INVESTIMENTO IMOBILIÁRIO TG RENDA IMOBILIÁRIA - RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:48,706 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:48,706 - __main__ - INFO - Processing document 21/28: LCP SPECIAL OPPORTUNITIES I FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:31:53,006 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:53,010 - __main__ - INFO - Processing document 22/28: TERA FUNDO DE INVESTIMENTO IMOBILIÁRIO
+2025-07-28 11:31:57,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:31:57,280 - __main__ - INFO - Processing document 23/28: KINEA DESENVOLVIMENTO GUARARÁ JARDINS FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:32:01,506 - __main__ - ERROR - Failed to download/extract PDF from https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=937120: 520 Server Error:  for url: https://fnet.bmfbovespa.com.br/fnet/publico/downloadDocumento?id=937120
+2025-07-28 11:32:01,506 - __main__ - WARNING - Skipping document due to extraction failure: KINEA DESENVOLVIMENTO GUARARÁ JARDINS FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:32:01,506 - __main__ - INFO - Processing document 24/28: KINEA DESENVOLVIMENTO GUARARÁ FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:32:06,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:32:06,530 - __main__ - INFO - Processing document 25/28: REAG MULTI ATIVOS IMOBILIÁRIOS - FUNDO DE INVESTIMENTO IMOBILIÁRIO
+2025-07-28 11:32:10,931 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:32:10,934 - __main__ - INFO - Processing document 26/28: HCO OPPS AERO II FEEDER FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA
+2025-07-28 11:32:13,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:32:13,899 - __main__ - INFO - Processing document 27/28: HCO OPPS AERO II FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA
+2025-07-28 11:32:17,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:32:17,280 - __main__ - INFO - Processing document 28/28: VERTENTE DESENVOLVIMENTO FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA
+2025-07-28 11:32:21,172 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-28 11:32:21,270 - __main__ - INFO - Ofertas Públicas completed successfully: C:\Users\Marco Regino\Documents\BDG-Bom Dia Gestor\Ofertas Públicas\OfertasPub_20250728.xlsx
+2025-07-28 11:32:21,607 - __main__ - INFO - Attempting to send email: FII | Ofertas de Distribuição de Cotas — 28/07/25
+2025-07-28 11:32:24,444 - __main__ - INFO - Email sent successfully via Outlook
