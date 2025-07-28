@@ -1,0 +1,54 @@
+name: FII Consolidated Manager Scheduler
+
+on:
+  schedule:
+    # Runs daily at 7:00 AM Brazil time (10:00 UTC, accounting for UTC-3)
+    - cron: '0 10 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  run-fii-manager:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install Chrome and ChromeDriver
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+        
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run FII Consolidated Manager
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        EMAIL_USER: ${{ secrets.EMAIL_USER }}
+        SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+        SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        GITHUB_ACTIONS: true
+      run: |
+        python FII_Consolidated_Manager_Cloud.py
+    
+    - name: Upload logs and results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: fii-manager-results-${{ github.run_number }}
+        path: |
+          *.log
+          *.xlsx
+          *.json
+        retention-days: 30
